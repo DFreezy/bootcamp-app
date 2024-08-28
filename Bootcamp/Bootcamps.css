@@ -1,0 +1,74 @@
+html{
+    background-color: #fce1bf;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #d6bfa1;
+    position: relative;
+}
+
+.navbar p {
+    margin-left: 100px;
+    margin-right: 20px;
+    font-weight: bold;
+    float: inline-end;
+    color: black;
+}
+
+.navbar .signIn{
+    margin-left: 450px;
+}
+
+.bootcamps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px; 
+    background-color: #fce1bf;
+    padding: 20px; 
+}
+
+.bootcamps div {
+ 
+    background-color: #E6B794;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.bootcamps img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px; 
+}
+
+.pageTitle{
+text-align: center;
+}
+
+.stellenbosch,
+.wethinkcode,
+.capaciti,
+.codespace,
+.uct,
+.uwc {
+    flex: 1 1 200px; 
+    max-width: 220px; 
+}
+
+.footer footer{
+    background-color: #3d362d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer img{
+    width: 80px;
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+

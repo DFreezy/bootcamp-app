@@ -1,0 +1,91 @@
+html{
+    background-color: #fce1bf;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #d6bfa1;
+    position: relative;
+}
+
+.navbar p {
+    margin-left: 100px;
+    margin-right: 20px;
+    font-weight: bold;
+    float: inline-end;
+    color: black;
+}
+
+.navbar .signIn{
+    margin-left: 450px;
+}
+
+.welcome h1{
+    text-align: center;
+    background-color: #d6bfa1;
+}
+
+.believe h1{
+    text-align: center;
+    background-color: #d6bfa1;
+}
+
+.believe p{
+    text-align: center;
+}
+
+.vision h1{
+    text-align: center;
+    background-color: #d6bfa1;
+}
+
+.vision p{
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.team div{
+    border: solid #d6bfa1;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #d6bfa1;
+}
+
+.team p{
+    font-weight: bold;
+}
+
+.sponsors h1{
+    text-align: center;
+    background-color: #d6bfa1;
+}
+
+.sponsors .capaciti{
+    margin-left: 50px;
+    margin-right: 150px;
+
+}
+
+.sponsors .absa{
+    margin-left: 625px;
+}
+
+.footer footer{
+    background-color: #3d362d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer img{
+    width: 80px;
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
